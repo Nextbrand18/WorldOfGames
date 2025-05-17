@@ -1,0 +1,6 @@
+# Build & run
+docker compose up --build -d
+# Execute tests using same image
+docker exec $(docker ps -q -f ancestor=yourdockerhubuser/wog-scores) \
+        python /e2e.py --url http://localhost:8777
+# Expect exit 0
