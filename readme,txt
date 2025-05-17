@@ -1,0 +1,7 @@
+World of Games
+Instructions and Guidelines
+1. Please make sure to be aligned with python’s naming conventions:
+a. Function names should always be in lowercase and separated with with _
+b. Class names should be in CamelCase
+2. Start a new PyCharm project and name it: WorldOfGames and write everything
+there.

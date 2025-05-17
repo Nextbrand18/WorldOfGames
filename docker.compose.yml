@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  wog-scores:
+    build: .
+    ports:
+      - "8777:8777"
+    volumes:
+      - ./app/Scores.txt:/Scores.txt:ro   # mount dummy score file
